@@ -2,9 +2,19 @@
 const header = document.querySelector("#header")
 console.log("Here's your header:", header)
 
+toggleColor(document.querySelector("h1#header"))
+
+toggleColor.addEventListener('click', function () {
+    document.body.classList.toggle('dark-mode')
+})
+
+toggleColor()
+toggleColor()
+toggleColor()
 
 /***** Deliverable 2 *****/
 header.style.color = "green"
+
 
 
 /***** Deliverable 3 *****/
